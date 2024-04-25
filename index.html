@@ -2,46 +2,91 @@
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Página de teste</title>
+        <title>Portifólio Anderson T Costa</title>
+
+        <style>
+            .containerHeader{
+                
+            }
+        </style>
     </head>
     <body>
         <header>
-
+            <div class="containerCabecalho">
+                <img class="logoSite" src="img/escola-de-programadores.png">
+                <nav class="containerButtons">
+                    <a class="buttonHeader" href="#apresentacao">Apresentação</a>
+                    <a class="buttonHeader" href="#skills">Skills</a>
+                    <a class="buttonHeader" href="#contato">Contato</a>
+                </nav>
+            </div>
         </header>
 
-        <h1>Seja bem Vindo - H1</h1>
-        <h2>Seja bem Vindo - H2</h2>
-        <h3>Seja bem Vindo - H3</h3>
-        <h4>Seja bem Vindo - H4</h4>
-        <h5>Seja bem Vindo - H5</h5>
-        <h6>Seja bem Vindo - H6</h6>
-
-        <p>Testo padrão</p>
-        <span>Texto padrão span</span>
-
-        <img width="150px" src="img/personagens_gestao.webp" alt="Uma pessoa sentada no banco de uma praça">
-
-        <button>Botão</button>
-
-        <a href="https://www.youtube.com" target="_blank">Youtube</a>
-
-        <section title="Cabeçalho">
-            <div>
-                <div>
-                    <button>Botão 1</button>
-                    <button>Botão 2</button>
+        <main>
+            <section title="Apresentação">
+                <div id="apresentacao">
+                    <div>
+                        <h1>Mago</h1>
+                        <p>Olá! Sou Anderson T Costa, estudante de Gestão de Tecnologia da Informação com foco atual em HTML cursando a Escola de Programadores Nível 1 - Aprendizes de Mago</p>
+                    </div>
+                    <img src="/img/personagens_gestao.webp">
                 </div>
-                <p>Texto dentro da seção</p>
-                <p>Outro texto dentro da seção</p>
+            </section>
+            
+            <section title="Skills">
+                <div id="skills">
+                    <h2>Skills</h2>
+                    <div>
+                        <img src="img/logo_html.png">
+                        <h3>HTML</h3>
+                    </div>
+
+                    <div>
+                        <img src="img/logo_html.png">
+                        <h3>CSS</h3>
+                    </div>
+
+                    <div>
+                        <img src="img/logo_html.png">
+                        <h3>JavaSccript</h3>
+                    </div>
+
+                    <div>
+                        <img src="img/logo_html.png">
+                        <h3>WordPress</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section title="Contato">
+               <div id="contato">
+                    <p>Prencha o formulário e entrarei em Contato</p>
+                        <div>
+                            <form>
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome">
+
+                                <label for="email">Email</label>
+                                <input type="email" name="email">
+
+                                <label for="numero">Telefone:</label>
+                                <input type="phone" name="numero">
+
+                                <button type="submit">Enviar</button>
+                            </form>
+
+                    </div>
+               </div> 
+            </section>
+        <main>
+
+        <footer>
+            <div>
+                <a><img src="img/logo_github.png" alt=""></a>
+                <a href="mailto:andersontcosta@gmail.com">andersontcosta@gmail.com</a>
             </div>
-        </section>
-
-        <section title="Título">
-            <h1>Título</h1>
-        </section>
-
-
-
+        </footer>
     </body>
 </html>
